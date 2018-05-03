@@ -161,6 +161,7 @@ header {
   margin-bottom: 0px;
   line-height: 60pt;
   padding-top: 10pt;
+  font-weight: 700;
 }
 
 .header-date-container h2.date { 
