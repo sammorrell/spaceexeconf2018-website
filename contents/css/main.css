@@ -50,6 +50,7 @@ pre {
 h1 {
   font-size: 2em;
   margin-bottom: 1em;
+  font-weight: 700;
 }
 
 h2 {
@@ -188,4 +189,9 @@ header {
 .footer-about {
   columns: 3;
   font-weight: 100;
+}
+
+.footer-logo {
+  width: 100%;
+
 }

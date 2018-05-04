@@ -10,11 +10,17 @@ block header
     .header-date-container 
       h2.year 2018
       h2.date 26th May
-      h3.time 11:00 - 17:30
+      //h3.time 11:00 - 17:30
       #background-cover-trigger
 
 block content
-  h1.heading About the Conference
+  .container
+    .row
+      .col-md
+        !=contents['about-space-exe.md'].html
+      .col-md
+        !=contents['about-the-conference.md'].html
+
   h1.heading Speakers
   h1.heading Getting Here
   h1.heading Contact Us
