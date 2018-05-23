@@ -139,7 +139,7 @@ hr {
 }
 
 .header-vertical-spacer {
-  height: 35%;
+  height: 30%;
   width: 100%;
   display: block;
 }
@@ -225,4 +225,65 @@ header {
 .programme-table .light-row {
   background: rgba(255, 255, 255, 0.6);
   color: #000;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+.speaker-image {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+}
+
+.john-image {
+  display: block;
+  width: 100%;
+}
+
+.speaker-title {
+  font-size: 30pt;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: bolder;
+}
+
+.speaker-subtitle {
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 14pt;
+}
+
+.invis-speaker-image {
+   display: none;
+}
+
+.right-speaker-image {
+  display: block;
+}
+
+@media only screen and (max-width: 720px) {
+  .speaker-image {
+    margin: 0 auto;
+  }
+
+  .speaker-title {
+    text-align: center;
+  }
+
+  .speaker-subtitle {
+    text-align: center;
+  }
+
+  .right-speaker-image {
+    display: none;
+  }
+
+  .invis-speaker-image {
+     display: block;
+  }
+
 }
