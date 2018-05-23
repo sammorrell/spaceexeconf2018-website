@@ -105,6 +105,7 @@ hr {
   background-image: url('../img/LLOri_hubble_4806_dark.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  filter: brightness(110%) saturate(115%);
 }
 
 #background-cover {
