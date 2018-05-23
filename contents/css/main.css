@@ -150,6 +150,18 @@ hr {
   width: 100%;
 }
 
+@media screen and (min-aspect-ratio: 4/3) {
+  .header-container {
+    width: 70%;
+  }
+
+  .header-vertical-spacer {
+  height: 15%;
+  width: 100%;
+  display: block;
+}
+}
+
 header {
   position: relative;
   width: 100%;
@@ -192,6 +204,42 @@ header {
   font-size: 35pt;
   font-weight: 100;
   letter-spacing: -2pt;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .header-date-container h2.year { 
+    font-size: 42pt;
+     line-height: 42pt;
+  }
+
+  .header-date-container h2.date { 
+    font-size: 23pt;
+    line-height: 24pt;
+  }
+
+  .header-date-container h3.time { 
+    font-size: 22pt;
+    line-height: 24pt;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  
+  .header-date-container h2.year { 
+    font-size: 36pt;
+     line-height: 24pt;
+  }
+
+  .header-date-container h2.date { 
+    font-size: 20pt;
+    line-height: 28pt;
+  }
+
+  .header-date-container h3.time { 
+    font-size: 20pt;
+    line-height: 20pt;
+  }
 }
 
 .footer-about {
@@ -266,7 +314,7 @@ header {
   display: block;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
   .speaker-image {
     margin: 0 auto;
   }
