@@ -1,7 +1,9 @@
 # Getting Here
 
-The conference itself will be hosted in the **Henderson Lecture Theatre** in the Xfi Building on the Streatham campus of the University of Exter. 
-As the conference is being held at the weekend, there will be [free parking available around campus](https://www.exeter.ac.uk/visit/directions/carparks/). There is also a [park and ride service](https://new.devon.gov.uk/roadsandtransport/parking/park-and-ride/) available should you wish to use it.
+The event is being held in the **Henderson Lecture Theatre** in the Xfi Building. The building is on the Streatham Campus of the University of Exeter. The building is marked at in this map.
+If you've coming by car, there is plenty of parking available on campus. There is on-road parking available on Prince of Wales Road as well as [free parking](https://www.exeter.ac.uk/visit/directions/carparks/) available in the university car parks, which are well signposted when on campus. There is also a park-and-ride scheme operating on the outskirts of the city. 
+
+You can also get to the campus by bus using the D bus service, which operates from the city centre. 
 
 ## Address:
 [

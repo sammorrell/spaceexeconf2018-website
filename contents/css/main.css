@@ -156,10 +156,10 @@ hr {
   }
 
   .header-vertical-spacer {
-  height: 15%;
-  width: 100%;
-  display: block;
-}
+    height: 15%;
+    width: 100%;
+    display: block;
+  }
 }
 
 header {
@@ -250,6 +250,12 @@ header {
 .footer-logo {
   width: 100%;
 
+}
+
+.programme-button {
+  margin: 10px auto;
+  display: block;
+  text-align: center;
 }
 
 .programme-table {
