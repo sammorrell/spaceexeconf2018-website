@@ -19,7 +19,7 @@ html, body {
   margin: 0 auto;
 }
 
-.text-centre { 
+.text-centre {
   text-align: center;
 }
 
@@ -175,7 +175,7 @@ header {
   text-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5);
 }
 
-.header-date-container h2.year { 
+.header-date-container h2.year {
   text-align: right;
   font-size: 75pt;
   padding-bottom: 0px;
@@ -185,7 +185,7 @@ header {
   font-weight: 700;
 }
 
-.header-date-container h2.date { 
+.header-date-container h2.date {
   text-align: right;
   font-size: 40pt;
   padding-bottom: 0px;
@@ -196,7 +196,7 @@ header {
   line-height: 40pt;
 }
 
-.header-date-container h3.time { 
+.header-date-container h3.time {
   text-align: right;
   font-style: normal;
   padding-top: 0px;
@@ -207,36 +207,36 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-  
-  .header-date-container h2.year { 
+
+  .header-date-container h2.year {
     font-size: 42pt;
      line-height: 42pt;
   }
 
-  .header-date-container h2.date { 
+  .header-date-container h2.date {
     font-size: 23pt;
     line-height: 24pt;
   }
 
-  .header-date-container h3.time { 
+  .header-date-container h3.time {
     font-size: 22pt;
     line-height: 24pt;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  
-  .header-date-container h2.year { 
+
+  .header-date-container h2.year {
     font-size: 36pt;
      line-height: 24pt;
   }
 
-  .header-date-container h2.date { 
+  .header-date-container h2.date {
     font-size: 20pt;
     line-height: 28pt;
   }
 
-  .header-date-container h3.time { 
+  .header-date-container h3.time {
     font-size: 20pt;
     line-height: 20pt;
   }
@@ -318,6 +318,10 @@ header {
 
 .right-speaker-image {
   display: block;
+}
+
+.button-watch-talk {
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
