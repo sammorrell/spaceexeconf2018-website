@@ -5,7 +5,7 @@ block header
   .container.header-container
     .header-vertical-spacer
     .header-logo-container
-      img.header-logo(src='/img/space-exe-conf-logo.png')
+      img.header-logo(src=contents.img['space-exe-conf-logo.png'].url)
 
     .header-date-container 
       h2.year 2018
@@ -21,7 +21,7 @@ block content
       .col-md
         !=contents['about-the-conference.md'].html
     .row
-      a.programme-button(href="/pdf/programme.pdf")
+      a.programme-button(href=contents.pdf['programme.pdf'].url)
         button.btn.btn-dark Download the Programme (PDF, 13MB)
 
   hr
